@@ -1,0 +1,21 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "zsh-syntax-highlighting"]
+	path = zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "zsh-completions"]
+	path = zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "zsh-256color"]
+	path = zsh-256color
+	url = https://github.com/chrissicool/zsh-256color
+[submodule "spaceship-prompt"]
+	path = spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt
+[submodule "geometry"]
+	path = geometry
+	url = https://github.com/geometry-zsh/geometry
