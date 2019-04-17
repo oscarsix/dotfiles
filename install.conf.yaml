@@ -23,9 +23,9 @@
     ~/.oh-my-zsh:
         path: oh-my-zsh
         force: true
-    # ~/.zsh_custom:
-        # path: zsh_custom
-        # force: true
+    ~/.zsh_custom:
+        path: zsh_custom
+        force: true
     ~/.zshrc:
         path: zshrc
         force: true
