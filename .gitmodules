@@ -19,3 +19,6 @@
 [submodule "geometry"]
 	path = geometry
 	url = https://github.com/geometry-zsh/geometry
+[submodule "Vundle.vim"]
+	path = Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
