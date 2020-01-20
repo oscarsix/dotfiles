@@ -60,3 +60,5 @@ source ~/.dotfiles/functions.zsh
 title $(hostname)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+autoload -U compinit && compinit
