@@ -58,7 +58,7 @@ source ~/.dotfiles/aliases.zsh
 source ~/.dotfiles/functions.zsh
 
 title $(hostname)
+autoload -Uz compinit && compinit
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-autoload -U compinit && compinit
+test -e '/usr/local/bin/kubectl' && source <(kubectl completion zsh)
