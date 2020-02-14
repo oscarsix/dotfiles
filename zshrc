@@ -62,3 +62,5 @@ autoload -Uz compinit && compinit
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 test -e '/usr/local/bin/kubectl' && source <(kubectl completion zsh)
+test -e ' /usr/local/bin/helm' && source <(helm completion zsh)
+test -e ' /usr/local/bin/oc' && source <(oc completion zsh)
